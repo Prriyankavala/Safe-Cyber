@@ -1,0 +1,50 @@
+.content{
+    background-image: url(Images/beg.jpg);
+    font-family: 'PT serif';
+    overflow-x: hidden;
+}
+img{
+    height: 300px;
+    width: 100%;
+    padding: 10px;
+    
+}
+.img{
+    position: relative;
+    height: 340px;
+}
+.txt{
+    position: absolute;
+    top: 0%;
+    padding-top: 5%;
+    right: 35%;
+
+}
+.txt1{
+    color:white;
+    font-size: 50px;
+}
+.images{
+    height: 400px;
+    width: 50%;
+    padding-left: 340px;
+    
+}
+.images:hover{
+    cursor: pointer;
+    transform: translateY(3px);
+}
+.intro{
+    color: white;
+    text-align: center;
+}
+.heading{
+    color: powderblue;
+    font-weight: 100%;
+}
+.txt1{
+    color: powderblue;
+    font-weight: 100%;
+    padding-top: 370px;
+}
+

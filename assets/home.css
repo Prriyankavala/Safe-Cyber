@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: 'PT serif';
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+.page-main {
+    display: block;
+}
+
+.header {
+    display: block;
+    background-color: black;
+}
+
+.body {
+    display: block;
+}
+
+.footer {
+    display: block;
+}
+
+.container {
+    display: block;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.h-inner {
+    display: flex;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.h-inner .b-left {
+    max-width: 150px;
+    margin: 20px 40px;
+    display: block;
+}
+
+.h-inner .b-right {
+    display: block;
+    margin-left: 235px;
+    box-sizing: border-box;
+    padding: 48px;
+}
+
+.h-inner .b-right .h-navbar {
+    color: white;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: 500;
+    transition-duration: 1s;
+}
+.h-inner .b-right .h-navbar:hover{
+    color: powderblue;
+    padding-left: 35px;
+}
+.middle-container{
+    display: block;
+    max-width: 1300px;
+    /* padding: 10px; */
+    margin: 10px 15px;
+    overflow-y:hidden ;
+    box-sizing: border-box;
+
+}
+.inner{
+    display: block;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.inner .m-video{
+    position: relative;
+    max-width: 1200px;
+    height: 580px;
+}
+.inner .m-text{
+    position:absolute;
+    top:63%;
+    right: 0;
+    color: white;
+    left: 0%;
+    box-sizing: border-box;
+}
+.inner .m-text .m-h1{
+    font-size: 65px;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 700;
+}
+.inner .m-text .m-p{
+    text-transform: capitalize;
+    font-size: 25px;
+    text-align: center;
+}

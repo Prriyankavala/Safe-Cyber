@@ -1,0 +1,76 @@
+body{
+    background-image: url(images/bg1.jpg);
+}
+img{
+    height: 300px;
+    width: 100%;
+}
+.imge{
+    position: relative;
+}
+.txt{
+    position: absolute;
+    top: 0%;
+    padding-top: 340px;
+    right: 80%;
+
+}
+.text{
+    font-size: 50px;
+    color: white;
+}
+.head1{
+    text-align: center;
+    color:white;
+    font-size: 50px;
+    font-weight: 100%;
+}
+
+
+.cim{
+    height: 400px;
+    width:50%;
+    padding-left: 330px;
+}
+.heading {
+    display: block;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.heading .blog-title {
+    display: inline-block;
+    font-size: 40px;
+    position: relative;
+    text-transform: capitalize;
+    color: white;
+}
+
+.blog-title::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 105%;
+    height: 2px;
+    width: 200px;
+    background-color: white;
+}
+
+.blog-title::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 105%;
+    height: 2px;
+    width: 200px;
+    background-color: white;
+}
+.des1{
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+    padding: 0 50px;
+}
+.info{
+    display: flex;
+}

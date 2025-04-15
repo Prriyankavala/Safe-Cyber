@@ -1,0 +1,29 @@
+.footer {
+    display: block;
+    clear: both;
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.f-inner {
+    display: inline-block;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.f-inner .ftop {
+    display: block;
+    text-align: center;
+}
+
+.f-inner .fbottom {
+    display: block;
+}
+
+.head1 {
+    font-size: 50px;
+    text-align: center;
+    font-weight: 500;
+}
